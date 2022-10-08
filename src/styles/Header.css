@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap');
+
+.Header {
+  font-family: 'Pacifico', cursive;
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header a {
+  text-decoration: none;
+  color: white;
+  font-size: 80px;
+}
+
+.Header .cartBtn{
+  height: 50px;
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  right: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.Header .cartBtn svg{
+  height: 50%;
+  width: 50%;
+  margin-right: 5%;
+}
+
+.Header .cartQty {
+  font-size: 110%;
+  font-family: arial;
+  height: 20px;
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  top: 40px;
+  right: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
